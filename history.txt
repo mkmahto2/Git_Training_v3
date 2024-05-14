@@ -8,3 +8,4 @@
     8  cat today_commands.txt 
     9  history
    10  history >> history.txt 
+hi
