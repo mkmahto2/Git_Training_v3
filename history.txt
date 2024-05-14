@@ -1,0 +1,10 @@
+    1  cat history.txt 
+    2  git log --oneline
+    3  history | grep "$(date +"%Y-%m-%d")" | awk '{$1=""; print substr($0,2)}' >> today_commands.txt
+    4  cat today_commands.txt 
+    5  ls
+    6  history
+    7  history | grep "$(date +"%Y-%m-%d")" >> today_commands.txt
+    8  cat today_commands.txt 
+    9  history
+   10  history >> history.txt 
